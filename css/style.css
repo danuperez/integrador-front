@@ -1,0 +1,72 @@
+header img {
+    height: 3rem;
+    margin-left:5rem;
+}
+
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+a.link-verde {
+    color: #09a009;
+}
+
+#conferencia{
+    background-image: url("");
+    background-size: cover;
+    position: relative;
+}
+#filtro {
+    filter: brightness(60%);
+}
+
+.overlay { 
+    color:#fff;
+    position:absolute;
+    z-index:12;
+    top:50%;
+    right:80px;
+    width:500px;
+    height: 100px;
+    text-align: right;
+  }
+
+  #margin {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+.conferencia-contenido {
+    color: white;
+    position: relative;
+    top: 1%;
+    width: 85%;
+    right: 1rem;
+    left: 20px;
+}
+.lugar-fecha-texto{
+    background-color: #383e42;
+}
+
+.text-decor {
+    text-decoration: dotted underline black;
+}
+
+div.form{
+    max-width:2000px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+footer{
+    background-color: #1e516e;
+}
+
+.footer-text {
+    text-decoration: underline #1e516e;
+}
